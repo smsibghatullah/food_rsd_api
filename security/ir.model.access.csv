@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ksa_sync,ksa_sync,model_ksa_sync,base.group_user,1,1,1,1
+access_ksa_city,ksa_city,model_ksa_city,base.group_user,1,1,1,1
+access_ksa_batch_number,ksa_batch_number,model_batch_number,base.group_user,1,1,1,1
+access_serial_record,serial_record_name,model_serial_record,base.group_user,1,1,1,1
+access_product_info,product_info,model_product_info,base.group_user,1,1,1,1

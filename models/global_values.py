@@ -1,0 +1,52 @@
+
+api_creds = {
+        'username': '62864990000190000',
+        'password': 'Sameh_2021',
+        'header': {'Content-Type': 'text/xml; charset=utf-8'}
+}
+
+manufacture_api_url = {
+    'Supply': 'http://tandtwstest.sfda.gov.sa:8080/ws/SupplyService/SupplyService?wsdl',
+    'SupplyCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/SupplyCancelService/SupplyCancelService?wsdl',
+    'Dispatch': 'http://tandtwstest.sfda.gov.sa:8080/ws/DispatchService/DispatchService?wsdl',
+    'DispatchCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/DispatchCancelService/DispatchCancelService?wsdl',
+    'Accept': 'http://tandtwstest.sfda.gov.sa:8080/ws/AcceptService/AcceptService?wsdl',
+    'AcceptDispatch': 'http://tandtwstest.sfda.gov.sa:8080/ws/AcceptDispatchService/AcceptDispatchService?wsdl',
+    'Deactivation': 'http://tandtwstest.sfda.gov.sa:8080/ws/DeactivationService/DeactivationService?wsdl',
+    'DeactivationCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/DeactivationCancelService/DeactivationCancelService?wsdl',
+    'Export': 'http://tandtwstest.sfda.gov.sa:8080/ws/ExportService/ExportService?wsdl',
+    'ExportCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/ExportCancelService/ExportCancelService?wsdl',
+    'Return': 'http://tandtwstest.sfda.gov.sa:8080/ws/ReturnService/ReturnService?wsdl',
+    'PackageUpload': 'http://tandtwstest.sfda.gov.sa:8080/ws/PackageUploadService/PackageUploadService?wsdl',
+    'PackageDownload': 'http://tandtwstest.sfda.gov.sa:8080/ws/PackageDownloadService/PackageDownloadService?wsdl',
+    'PackageQuery': 'http://tandtwstest.sfda.gov.sa:8080/ws/PackageQueryService/PackageQueryService?wsdl',
+    'CheckStatus': 'http://tandtwstest.sfda.gov.sa:8080/ws/CheckStatusService/CheckStatusService?wsdl',
+    'CountryList': 'http://tandtwstest.sfda.gov.sa:8080/ws/CountryListService/CountryListService?wsdl',
+    'CityList': 'http://tandtwstest.sfda.gov.sa:8080/ws/CityListService/CityListService?wsdl',
+    'DispatchDetail': 'http://tandtwstest.sfda.gov.sa:8080/ws/DispatchDetailService/DispatchDetailService?wsdl',
+    'DrugListService': 'http://tandtwstest.sfda.gov.sa:8080/ws/DrugListService/DrugListService?wsdl',
+    'ErrorCodeList': 'http://tandtwstest.sfda.gov.sa:8080/ws/ErrorCodeListService/ErrorCodeListService?wsdl',
+    'StakeholderList': 'http://tandtwstest.sfda.gov.sa:8080/ws/StakeholderListService/StakeholderListService?wsdl',
+    'Import': 'http://tandtwstest.sfda.gov.sa:8080/ws/ImportService/ImportService?wsdl',
+    'ImportCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/ImportCancelService/ImportCancelService?wsdl',
+    'Dispatch': 'http://tandtwstest.sfda.gov.sa:8080/ws/DispatchService/DispatchService?wsdl',
+    'DispatchCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/DispatchCancelService/DispatchCancelService?wsdl',
+    'Accept': 'http://tandtwstest.sfda.gov.sa:8080/ws/AcceptService/AcceptService?wsdl',
+    'AcceptDispatch': 'http://tandtwstest.sfda.gov.sa:8080/ws/AcceptDispatchService/AcceptDispatchService?wsdl',
+    'Deactivation': 'http://tandtwstest.sfda.gov.sa:8080/ws/DeactivationService/DeactivationService?wsdl',
+    'DeactivationCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/DeactivationCancelService/DeactivationCancelService?wsdl',
+    'Export': 'http://tandtwstest.sfda.gov.sa:8080/ws/ExportService/ExportService?wsdl',
+    'ExportCancel': 'http://tandtwstest.sfda.gov.sa:8080/ws/ExportCancelService/ExportCancelService?wsdl',
+    'Return': 'http://tandtwstest.sfda.gov.sa:8080/ws/ReturnService/ReturnService?wsdl',
+    'PackageUpload': 'http://tandtwstest.sfda.gov.sa:8080/ws/PackageUploadService/PackageUploadService?wsdl',
+    'PackageDownload': 'http://tandtwstest.sfda.gov.sa:8080/ws/PackageDownloadService/PackageDownloadService?wsdl',
+    'PackageQuery': 'http://tandtwstest.sfda.gov.sa:8080/ws/PackageQueryService/PackageQueryService?wsdl',
+    'CheckStatus': 'http://tandtwstest.sfda.gov.sa:8080/ws/CheckStatusService/CheckStatusService?wsdl',
+    'CountryList': 'http://tandtwstest.sfda.gov.sa:8080/ws/CountryListService/CountryListService?wsdl',
+    'CityList': 'http://tandtwstest.sfda.gov.sa:8080/ws/CityListService/CityListService?wsdl',
+    'DispatchDetail': 'http://tandtwstest.sfda.gov.sa:8080/ws/DispatchDetailService/DispatchDetailService?wsdl',
+    'DrugListService': 'http://tandtwstest.sfda.gov.sa:8080/ws/DrugListService/DrugListService?wsdl',
+    'ErrorCodeList': 'http://tandtwstest.sfda.gov.sa:8080/ws/ErrorCodeListService/ErrorCodeListService?wsdl',
+    'StakeholderList': 'http://tandtwstest.sfda.gov.sa:8080/ws/StakeholderListService/StakeholderListService?wsdl'
+}
+

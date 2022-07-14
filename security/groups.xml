@@ -1,0 +1,193 @@
+<odoo>
+    <data>
+        <record model="ir.module.category" id="module_category_reporting">
+            <field name="name">Reporting</field>
+            <field name="sequence">5</field>
+        </record>
+
+        <record model="ir.module.category" id="module_category_product_operations">
+            <field name="name">Product Operations</field>
+            <field name="sequence">6</field>
+        </record>
+
+        <record model="ir.module.category" id="module_drug_operations">
+            <field name="name">Drug Operations</field>
+            <field name="sequence">6</field>
+        </record>
+
+        <record model="ir.module.category" id="module_stakeholder_operations">
+            <field name="name">Stakeholder Operations</field>
+            <field name="sequence">7</field>
+        </record>
+
+        <record model="ir.module.category" id="module_help_desk">
+            <field name="name">Help Desk</field>
+            <field name="sequence">8</field>
+        </record>
+
+        <record model="ir.module.category" id="module_user_operations">
+            <field name="name">User Operations</field>
+            <field name="sequence">9</field>
+        </record>
+
+        <record model="ir.module.category" id="module_my_notifications">
+            <field name="name">My Notifications</field>
+            <field name="sequence">10</field>
+        </record>
+        <record model="ir.module.category" id="module_service_privileges">
+            <field name="name">Service Privileges</field>
+            <field name="sequence">50</field>
+        </record>
+
+        <record id="accept_notification" model="res.groups">
+            <field name="name">Accept Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="return_notification" model="res.groups">
+            <field name="name">Return Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="dispatch_notification" model="res.groups">
+            <field name="name">Dispatch Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="Dispatch_cancel_notification" model="res.groups">
+            <field name="name">Dispatch Cancel Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="export_notification" model="res.groups">
+            <field name="name">Export Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="deactivation_notification" model="res.groups">
+            <field name="name">Deactivation Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="export_cancel_notification" model="res.groups">
+            <field name="name">Export Cancel Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+
+        <record id="import_notification" model="res.groups">
+            <field name="name">Import Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="import_cancel_notification" model="res.groups">
+            <field name="name">Import Cancel Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="deactivation_cancel_notification" model="res.groups">
+            <field name="name">Deactivation Cancel Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+        <record id="Dispatch_accept_notification" model="res.groups">
+            <field name="name">Dispatch Accept Notification</field>
+            <field name="category_id" ref="module_service_privileges"/>
+        </record>
+
+
+
+
+        <record id="dispatchpackages" model="res.groups">
+            <field name="name">Dispatch Packages</field>
+            <field name="category_id" ref="module_my_notifications"/>
+        </record>
+
+        <record id="accept_packages" model="res.groups">
+            <field name="name">Accept Packages</field>
+            <field name="category_id" ref="module_my_notifications"/>
+        </record>
+
+
+        <record id="listing_users" model="res.groups">
+            <field name="name">Listing Users</field>
+            <field name="category_id" ref="module_user_operations"/>
+        </record>
+        <record id="create_edit_user_custom" model="res.groups">
+            <field name="name">Create/Edit User</field>
+            <field name="category_id" ref="module_user_operations"/>
+        </record>
+        <record id="reset_user_password" model="res.groups">
+            <field name="name">Reset User Password</field>
+            <field name="category_id" ref="module_user_operations"/>
+        </record>
+        <record id="user_change_status" model="res.groups">
+            <field name="name">User Change Status</field>
+            <field name="category_id" ref="module_user_operations"/>
+        </record>
+
+
+
+        <record id="listing_tickets" model="res.groups">
+            <field name="name">Listing Tickets</field>
+            <field name="category_id" ref="module_help_desk"/>
+        </record>
+
+        <record id="createticket" model="res.groups">
+            <field name="name">Create Ticket</field>
+            <field name="category_id" ref="module_help_desk"/>
+        </record>
+
+        <record id="listingstakeholders" model="res.groups">
+            <field name="name">Listing Stakeholders</field>
+            <field name="category_id" ref="module_stakeholder_operations"/>
+        </record>
+
+        <record id="listingdrug" model="res.groups">
+            <field name="name">Listing Drug</field>
+            <field name="category_id" ref="module_drug_operations"/>
+        </record>
+
+
+
+        <record id="productquery" model="res.groups">
+            <field name="name">Product Query</field>
+            <field name="category_id" ref="module_category_product_operations"/>
+        </record>
+        <record id="product_transaction_query" model="res.groups">
+            <field name="name">Product Transaction Query</field>
+            <field name="category_id" ref="module_category_product_operations"/>
+        </record>
+        <record id="supply_notification_log" model="res.groups">
+            <field name="name"> Supply Notification Log</field>
+            <field name="category_id" ref="module_category_product_operations"/>
+        </record>
+        <record id="incoming_unit_query" model="res.groups">
+            <field name="name">Incoming Unit Query</field>
+            <field name="category_id" ref="module_category_product_operations"/>
+        </record>
+
+
+
+        <record id="operationlist" model="res.groups">
+            <field name="name">Operation List</field>
+            <field name="category_id" ref="module_category_reporting"/>
+        </record>
+        <record id="expireddruglist" model="res.groups">
+            <field name="name">Expired Drug List</field>
+            <field name="category_id" ref="module_category_reporting"/>
+
+        </record>
+        <record id="drugcounnt" model="res.groups">
+            <field name="name">Drug Count</field>
+            <field name="category_id" ref="module_category_reporting"/>
+
+        </record>
+        <record id="druglist" model="res.groups">
+            <field name="name">Drug List</field>
+            <field name="category_id" ref="module_category_reporting"/>
+        </record>
+
+
+    </data>
+</odoo>
